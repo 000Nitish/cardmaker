@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Maker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="card-value">
+        <h3>User Information</h3>
+        <div class="flex-row">
+            <div>
+                <label>User Name</label><br>
+                <input type="text" placeholder="Enter user Name" id="name">
+            </div>
+            <div>
+                <label>Upload Photo</label><br>
+                <input type="file" placeholder="Chose file" id="file">
+            </div>
+        </div>
+        <div class="flex-row">
+            <div>
+                <label>Email</label><br>
+                <input type="text" placeholder="Enter Email Id" id="mail">
+            </div>
+            <div>
+                <label>Mobile Number</label><br>
+                <input type="text" placeholder="Enter Mobile number" id="number">
+            </div>
+        </div>
+        <div class="flex-row">
+            <div>
+                <label>BackGround Color</label><br>
+                <input type="text" placeholder="e.g. black" id="bg-color">
+            </div>
+            <div>
+                <label>Text Color</label><br>
+                <input type="text" placeholder="e.g. white" id="text-color">
+            </div>
+        </div>
+        <label>Enter Job description</label><br>
+        <textarea id="job"></textarea><br>
+        <button id="btn" class="button">Create Card</button>
+    </div>
+
+    <div id="card">
+        <img id="card-img" src="">
+        <div class="info">
+            <h3 id="card-name"></h3>
+            <p id="card-intro"></p>
+            <h4 id="card-number"></h4>
+            <h4 id="card-gmail"></h4>
+        </div>
+    </div>
+    <script src="framework.js"></script>
+</body>
+
+</html>
